@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #0F172A;
+
+}
+
+header {
+    padding: 34px 0;
+    margin-bottom: 94px;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.recent-projects {
+    margin-bottom: 94px;
+}
+
+.container-smoll {
+    max-width: 1158px;
+    margin: 0 auto ;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navigation li {
+    padding: 10px;
+}
+
+.navigation li a {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+color: #F8FAFC;
+text-decoration: none;
+}
+
+h2 {
+
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+color: #F8FAFC ;
+margin-bottom: 83px;
+
+}
+
+h2 span {
+    color:#16B8F3 ;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.card {
+    background: #1E293B66;
+    border-radius: 20px;
+    padding: 34px 8px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.card > diV {
+    display: flex;
+    flex-direction: column;
+    gap: 25PX;
+}
+
+.card h3 {
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+color: #F8FAFC;
+
+}
+
+.card p {
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+color: #CBD5E1;
+}
+
+.card div p:first-child {
+    margin-bottom: 14px ;
+}
+
+
+
+
+.container-smoll2 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Latest-Posts {
+    margin-bottom: 139px;
+}
+
+footer {
+   margin-bottom:57px ;
+}
+
+.container2 {
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.soc {
+    display: flex;
+    flex-direction: column;
+}
+.container2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.container2 h4 {
+    color: #CBD5E1;
+font-size: 20px;
+font-weight: 500;
+line-height: 23px;
+
+}
